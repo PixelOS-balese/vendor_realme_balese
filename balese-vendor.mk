@@ -769,7 +769,6 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libcwb_client_vendor \
-    libcwb_qcom_aidl \
     libdepthcomputation \
     libdigital-dimming \
     libdisp-aba \
@@ -790,7 +789,6 @@ PRODUCT_PACKAGES += \
     libhdrdynamicootf \
     libhdrvivid \
     libhwconfigurationutil_vendor \
-    libhwcsensor \
     libintervmipc \
     libipebpsstriping \
     libipebpsstriping170 \
@@ -961,7 +959,6 @@ PRODUCT_PACKAGES += \
     manifest_displaycolorfeature_aidl.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
-    manifest_oplus_cwb_aidl.xml \
     manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_face.xml \
     manifest_oplus_sendextcamcmd.xml \
