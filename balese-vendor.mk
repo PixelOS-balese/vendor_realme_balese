@@ -1804,3 +1804,7 @@ PRODUCT_PACKAGES += \
     cwb_utils_aidl \
     vendor.oplus.hardware.cammidasservice-V1-service \
     vendor.oplus.hardware.displaypanelfeature-service
+
+PRODUCT_COPY_FILES += \
+    vendor/realme/balese/proprietary/odm/etc/temperature_profile/sys_thermal_control_config.xml:$(TARGET_COPY_OUT_ODM)/etc/temperature_profile/sys_thermal_control_config.xml \
+    vendor/realme/balese/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
